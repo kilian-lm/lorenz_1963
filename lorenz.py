@@ -23,3 +23,4 @@ x = odeint(lorenz_63, x0, t, args=(sigma, rho, beta))
 
 # plot results
 plt.plot(t, x[:,0], label='x(t)')
+plt.show()

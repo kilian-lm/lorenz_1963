@@ -45,6 +45,6 @@ def generate_lorenz_animation(sigma, rho, beta, dt, steps):
                                   interval=10, blit=True)
     return ani
 
-ani = generate_lorenz_animation(sigma=10, rho=28, beta=8/3, dt=0.001, steps=1000)
+ani = generate_lorenz_animation(sigma=10, rho=28, beta=8/3, dt=0.001, steps=10000)
 
 ani.save('lorenz.mp4', fps=30)
